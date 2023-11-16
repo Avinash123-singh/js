@@ -18,7 +18,7 @@ console.log(booleanisloggedin)
 //" "=false empty string is false 
 //"avinash " = true sting value assigned 
 
-let somenumber = 60
+let somenumber = 55
 
 let stringnumber = String(somenumber)
 
