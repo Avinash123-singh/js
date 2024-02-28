@@ -6,17 +6,14 @@ console.log(3 + 3);
 
 console.log("avinash"+ "singh"*12)// if string is added or multiplied with 
 
-//code readabilty is important so write in proper manner 
-
 let name ="avinash"
 let age = 23*2
-let isLoggedIn = false*12//true value is 1 ,false value is 0
+let isLoggedIn = true*12//true value is 1 ,false value is 0
 const person = "vickey" + " singh";
 
-let x = 16 + 6 +"Volvo"// when we pput no. in double cotted it will be treated as string 
+let x = 16 + 6 +"Volvo"// when we put no. in double cotted it will be treated as string 
 let y = "car" + 10 + 5
 // code alwayes runs from left to right , so whatever values be  written first (number or string ) if we add them it will take the value from left to right 
-
 
 
 let x1 = 34.00

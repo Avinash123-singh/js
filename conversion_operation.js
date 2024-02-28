@@ -25,3 +25,27 @@ let stringnumber = String(somenumber)
 console.log(stringnumber)
 
 console.log( typeof stringnumber)
+
+
+
+let value = 3
+let negValue = -value
+
+console.log(negValue)
+
+console.log(2%3)
+
+let str1 = "Avinash"
+let str2 = " Singh"
+
+let str3 = str1 + str2
+console.log(str3)
+
+console.log(+true)
+
+
+let gamecounter = 100
+////https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+gamecounter++;//post fix  value will be increamented  after uses 
+++gamecounter//prefix value will be increamented before uses 
+console.log(gamecounter)
