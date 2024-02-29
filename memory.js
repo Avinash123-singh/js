@@ -24,3 +24,7 @@ usertwo.email="vickey@gmail.com"
 
 console.log(user.email)
 console.log(usertwo.email)
+//git add . or git add file name 
+//git status
+//git commit -m "headline of the project"
+//git status
