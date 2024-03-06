@@ -1,6 +1,6 @@
 //arrays 
 
-const myarray =[0,1,2,3,4,5,"avinash"]
+const myarray =[10,14,2,23,46,58,"avinash"]
 
 
 const myheros = ["shaktiman" , "iron man " , "thor"]
@@ -45,9 +45,11 @@ const newa2 = myarray.splice(1,4)
 
 console.log(newa1);
 console.log(newa2);
-console.log("c",myarray);
+//console.log("c",myarray);
 
-//const newa3 = myarray.splice(1,4)
+//const newa3 = myarray.splice(0,4)
 
 //console.log(newa3);
 
+
+//console.log(myarray);
