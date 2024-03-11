@@ -66,3 +66,16 @@ console.log(Object.values(gaminguser));
 console.log(Object.entries(gaminguser));//makes single single arrays for keys and their values 
 console.log(gaminguser.hasOwnProperty("isLoogedinjs"));//.has =ownproperty explain whethere this value exist or not 
 //console.log(user);
+
+const course = {
+    coursebook: "javascript in hindi ",
+    price: "999",
+    author:"avinash"
+}
+//course.author
+
+//de-structre is the process to change the object name accordingly you want 
+
+const{author}=course//in curly brases we de-structure the value *-
+
+console.log(author);
