@@ -7,7 +7,6 @@ return num1
 //(val)it is used in function 
 
 console.log(calculatecartprice(200,500,700))
-
 const user ={
     username : "avinash",
     price : 199
