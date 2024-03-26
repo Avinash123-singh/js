@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dom from chai and code </title></titl></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body style="background-color: #212121;color:#ffff">
+    <ul class ="language">
+        <li>javascript</li>
+    </ul>
+    
+</body>
+<script>
+    function addLanguage(langname){
+     const li =document.createElement('li');
+     li.innerHTML=`${langname}`
+     document.querySelector('.language').
+     appendChild(li)
+
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+
+    function optimizedlang(langname){
+        const li = document.createElement('li')
+li.appendChild(document.createTextNode(langname))
+document.querySelector('.language').appendChild(li)
+
+    }
+    optimizedlang('java')
+
+
+//want to edit some value
+
+const secondlang = document.querySelector("li:nth-child(2)")
+//secondlang.innerHTML = "bootstrap"
+
+const newli = document.createElement('li')
+newli.textContent = "cpp"
+secondlang.replaceWith(newli)
+
+
+//edit
+
+const firstlang = document.querySelector("li:first-child")
+firstlang.outerHTML ='<li>Typescript</li>'
+
+
+//remove
+
+const lastlang= document.querySelector('li:last-child')
+lastlang.remove()
+
+</script>
+
+</html>
