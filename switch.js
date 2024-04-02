@@ -25,7 +25,6 @@ switch (month) {
         console.log("april");
         
          break;
-
     default:
 
     console.log("any any value ");

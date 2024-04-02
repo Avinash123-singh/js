@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <h2>Amazing Images</h2>
+    <div>
+        <ul id ="images">
+            <li><img width="200px" id ="photoshoot" src="https://static.vecteezy.com/system/resources/thumbnails/022/705/608/small/generative-ai-illustration-of-a-sea-turtle-in-crystal-clear-water-amazing-crystalline-seabed-reef-full-of-life-photo.jpg" alt="photoshoot" </li>
+
+            <li><img width="200px" id ="tajshoot" src="https://static.vecteezy.com/system/resources/previews/022/717/634/non_2x/3d-illustration-of-amazing-architecture-design-of-muslim-mosque-ramadan-concept-illustration-of-amazing-architecture-design-of-muslim-mosque-ramadan-concept-generate-ai-free-photo.jpg" alt ="tajshoot"</li>
+             
+            <li><img width="200px" id ="hillsshoot" src="https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_1280.jpg"alt="hillsshoot"</li>
+
+            <li><img width="200px" id ="islandshoot" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxs7CyssK-uBsVEoiEHBECLGQnKI_rwcOpTb096WHMvw&s"alt="islandshoot"</li>
+
+            <li><a style = "color: rgb(69, 82, 94);" target="_blank" href= "https://www.google.com" id ="google">Google</a> </li>
+            
+          
+        </ul>
+
+    </div>
+
+</body>
+<script>
+
+//click to remove all the images 
+
+document.querySelector('#images').addEventListener('click',function(e){
+    console.log(e.target.tagName);
+
+    if(e.target.tagName==='IMG'){
+        console.log(e.target.id);
+        let removeIt = e.target.parentNode
+    removeIt.remove()
+    }
+    
+
+},false)
+
+
+</script>
+</html>
